@@ -1,0 +1,5 @@
+   body { font-family: Arial, sans-serif; margin: 40px; }
+        .contact-container { max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        h1 { text-align: center; }
+        .info { margin: 10px 0; }
+        .label { font-weight: bold; }
