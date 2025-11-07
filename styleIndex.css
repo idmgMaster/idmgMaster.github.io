@@ -8,6 +8,8 @@ body {
   padding: 20px; 
   border: 1px solid #ccc; 
   border-radius: 8px;
+  width: 220; 
+  height: 220;
 }
 
 .name-title {
