@@ -1,9 +1,19 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
+}
+div.profile-picture {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+div.name-title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h1 {
-  color: white;
+  color: rgb(0, 40, 104);
   text-align: center;
 }
 
