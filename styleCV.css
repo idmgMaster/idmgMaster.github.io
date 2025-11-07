@@ -1,6 +1,26 @@
-        ul { list-style-type: disc; margin-left: 2em; }
-        li { margin-bottom: 0.5em; }
-        .cv-container {align-items: center ; background: #fff; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}        
+/* Global styles */
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* CV Container */
+.cv-container {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Content styles */
+ul { list-style-type: disc; margin-left: 2em; }
+li { margin-bottom: 0.5em; }
 
 /* Profile top: picture + name/title side-by-side */
 .profile-top{ display:flex; align-items:center; gap:18px; margin-bottom:14px; }
