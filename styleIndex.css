@@ -1,54 +1,62 @@
+
 body {
   background-color: rgb(255, 255, 255);
-}
-.profile-picture {
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 20px; 
-  border: 1px solid #ccc; 
-  border-radius: 8px;
-  width: 220; 
-  height: 220;
+  font-family: Verdana, Arial, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-.name-title {
-  text-align: center;
-  margin-bottom: 20px;
+/* Center top-level content on every page by constraining direct children */
+body > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.cv-container {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+}
+
+/* Profile picture and name/title layout */
+.profile-top{ display:flex; align-items:center; gap:18px; margin:14px 0; }
+.profile-picture{ padding:0; }
+.profile-picture img{ width:110px; height:110px; object-fit:cover; border-radius:50%; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+.name-title { text-align:left; }
+.name-title h2{ margin:0 0 6px 0; font-size:20px; color:#1b365f; }
+.name-title .title{ margin:0 0 6px 0; color:#555; font-style:italic; }
+.name-title .contact-small{ margin:0; color:#666; font-size:14px; }
 
 h1 {
   color: rgb(0, 40, 104);
   text-align: center;
 }
 
-p {
-  font-family: verdana;
+p { margin:0 0 8px 0; }
+
+.menu { text-align: center; margin-top: 20px; }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+.button:hover { background-color: #0056b3; }
 
-.menu {
-  text-align: center;
-  margin-top: 20px;
+@media (max-width:640px){
+  .profile-top{ flex-direction:column; text-align:center; }
+  .name-title { text-align:center; }
 }
-
-  .button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 5px;
-      font-size: 16px;
-      color: white;
-      background-color: #007BFF;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    .button:hover {
-      
-      background-color: #0056b3;}
-
-
 
      
+
