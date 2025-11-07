@@ -1,6 +1,6 @@
         ul { list-style-type: disc; margin-left: 2em; }
         li { margin-bottom: 0.5em; }
-        .cv-container { background: #fff; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}        
+        .cv-container {align-items: center ; background: #fff; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}        
 
 /* Profile top: picture + name/title side-by-side */
 .profile-top{ display:flex; align-items:center; gap:18px; margin-bottom:14px; }
