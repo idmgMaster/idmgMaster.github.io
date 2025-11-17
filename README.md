@@ -7,4 +7,6 @@ More information about my profesional profile on my *LinkedIn* profile: [IvanMor
 
 ![Profile picture](images/FotoPerfil.jpeg)
 
-***MIT License***
+🇨🇴
+
+~~All rights reserved~~. Just kidding 😄, this site is shared under a ***MIT License*** 👍
